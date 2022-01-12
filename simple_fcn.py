@@ -125,7 +125,7 @@ for epoch in tqdm(range(num_epochs), desc=f'training'):
         optimizer.step()
 
         # print(f"loss: {loss}")
-    print(f"\nloss at epoch: {epoch} is {loss:.3f}")
+    print(f"\nloss at epoch: {epoch+1} is {loss:.3f}")
 
 
 #check accuracy on training and test

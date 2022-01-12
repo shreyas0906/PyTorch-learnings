@@ -1,3 +1,6 @@
 MNIST/*
 .idea/vcs.xml
-
+data/*
+*.pth.tar
+*.pt
+misc.xml
